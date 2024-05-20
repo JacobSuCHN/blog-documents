@@ -9,4 +9,4 @@ git add -A
 git commit -m "$0 : $1 $DATE"
 
 # 推送到GitHub仓库
-git push origin master
+git push origin main
