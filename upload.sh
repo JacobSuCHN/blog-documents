@@ -6,7 +6,7 @@ DATE=`date`
 git add -A
 
 # 提交变更
-git commit -m "$0 : $1 $DATE"
+git commit -m "update article - $DATE"
 
 # 推送到GitHub仓库
 git push origin main
