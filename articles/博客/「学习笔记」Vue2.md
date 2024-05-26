@@ -329,7 +329,7 @@
     - 通过Object.defineProperty()把data对象中所有属性添加到vm上
     - 为每一个添加到vm上的属性，都指定一个getter/setter
     - 在getter/setter内部去操作（读/写）data中对应的属性
-  - ![数据代理图示](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-7016fec381ee9c36c9b6f0186cba4d81-%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86%E5%9B%BE%E7%A4%BA-37ccd7.png)
+  - ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852674-1.png)
 
   - ```html
     <div id="root">
@@ -1018,13 +1018,13 @@
 
     - 如果结构中还包含输入类的DOM
         - 会产生错误DOM更新 ==> 界面有问题
-    - ![key的原理-index](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-ccf0df3e02dc51d26a1b612d61d4ff15-key%E7%9A%84%E5%8E%9F%E7%90%86-index-47ebd0.png)
+    - ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852751-2.png)
 
   - 开发中如何选择key
 
       - 最好使用每条数据的唯一标识作为key, 比如id、手机号、身份证号、学号等唯一值
       - 如果不存在对数据的逆序添加、逆序删除等破坏顺序操作，仅用于渲染列表用于展示，使用index作为key是没有问题的
-      - ![key的原理-id](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-07da798d26389dd0f207652f806ad987-key%E7%9A%84%E5%8E%9F%E7%90%86-id-52b1ad.png)
+      - ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852949-3.png)
 
   - ```html
       <div id="root">
@@ -1783,7 +1783,7 @@
 
 #### 2.18.2.分析生命周期
 
-- ![生命周期](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-6eba8c66dc16b2a1ec024aad49e20600-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-51e812.png)
+- ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852699-4.png)
 
 - ```html
   <div id="root">
@@ -2202,7 +2202,7 @@
 
   - VueComponent.prototype.\_\_proto\_\_ === Vue.prototype
   - 让组件实例对象（vc）可以访问到 Vue原型上的属性、方法
-  - ![vm与vc](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-cb5cfc7f5225b4940293e57900bf64d5-vm%E4%B8%8Evc-9f3d68.png)
+  - ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852925-5.png)
 
 - ```html
   <div id="root">
@@ -2735,7 +2735,7 @@
 
 - 组件上也可以绑定原生DOM事件，需要使用```native```修饰符
 
-- 注意：通过```this.$refs.xxx.$on('atguigu',回调)```绑定自定义事件时，回调**要么配置在methods中**，**要么用箭头函数**，否则this指向会出问题！
+- 注意：通过```this.refs.xxx.refs.xxx.on('atguigu',回调)```绑定自定义事件时，回调**要么配置在methods中**，**要么用箭头函数**，否则this指向会出问题！
 
 ### 4.12.全局事件总线
 
@@ -2807,7 +2807,7 @@
 
 - 作用：在插入、更新或移除 DOM元素时，在合适的时候给元素添加样式类名
 
-- ![transition](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-5990c1dff7dc7a8fb3b34b4462bd0105-transition-7be627.png)
+- ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852300-6.png)
 
 - 写法：
 
@@ -3000,7 +3000,7 @@
 
 - vuex原理图
 
-  - ![vuex](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue2%2F2024%2F02%2F24%2F09-59-35-6007da7c95eb5804af1fb1c12b845669-vuex-2004f9.png)
+  - ![](https://image.jslog.net/online/a-11/2024/05/26/19-27-32-1716722852683-7.png)
 
 - 搭建vuex环境
 

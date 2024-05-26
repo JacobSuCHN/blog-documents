@@ -452,7 +452,8 @@ npm run dev
 
 - 我们可以更加优雅的组织我们的代码，函数让相关功能的代码更加有序的组织在一起
 
-  ![](https://cdn.jsdelivr.net/gh/JacobSuCHN/blog-img/img/jssx-vue3%2F2024%2F02%2F24%2F10-12-52-7db7368ac6299ebb52be8e5b4fb20fc4-oac-1f0091.png)
+  ![](https://image.jslog.net/online/a-12/2024/05/26/19-34-38-1716723278464-oac.png)
+
 
 
 ## 6.新的组件
